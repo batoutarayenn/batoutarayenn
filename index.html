@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <title> Dom</title>
+  </head>
+  <body>
+    <header>
+        <a href="#" class="logo"> shop</a>
+        <ul>
+            <li><a href="#">About us</a> </li>
+            <li><a href="#">Career</a> </li>
+            <li><a href="#">Departments</a> </li>         
+           
+        </ul>    
+    </header>
+    <section id="section-1">
+      <input type="text" id="input" />
+      <button class="btn" id="submit-3">submit</button>
+        
+    </section>
+    <section id="section-2">
+      <div id="pclogo" style="border: 52px rgb(0, 0, 0) solid; border-radius: 40px;">
+        <img id="web-logo" src ="NicePng_gamer-png_896477.png"free">    
+       <br>
+       
+         <button class="btn plus-btn">+</button>
+        <span class="counterr"> 0 </span>
+        
+        <button class="btn minus-btn">-</button>
+        <img class="hearts" src="facebook-love-png-43992.png" alt="#">
+        
+      </div>
+      <br>
+
+      <div id="pclogo" style="border: 52px rgb(0, 0, 0) solid; border-radius: 30px;">
+        <img id="web-logo" src ="pngkey.com-gamer-png-9535783.png"free"> 
+        <br>   
+         <button class="btn plus-btn">+</button>
+        <span class="counterr"> 0</span>
+        <button class="btn minus-btn">-</button>
+        <img class="hearts" src="facebook-love-png-43992.png" alt="#">
+
+       
+      </div>
+      <br>
+      <div id="pclogo" style="border: 52px rgb(0, 0, 0) solid; border-radius: 30px;">
+        <img id="web-logo" src ="PngItem_4182752.png"free">    
+        <br>
+         <button class="btn plus-btn">+</button>
+        <span class="counterr"> 0</span>
+        <button class="btn minus-btn">-</button>
+        <img class="hearts" src="facebook-love-png-43992.png" alt="#">
+ 
+      </div>
+      
+    </section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+          var header = document.querySelector("header");
+          header.classList.toggle("sticky", window.scrollY > 0);
+        })
+      </script>
+    <script src="main.js"></script>
+  </body>
+</html>
